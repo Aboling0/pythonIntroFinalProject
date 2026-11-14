@@ -1,6 +1,8 @@
 # finalProject: Python Data Manipulation
 
-It's all well and good to do cool data manipulation, but...
+This dataset is actually two datasets, one on average fruit prices, and one on vegetables, both of which I'll be exploring in this ReadMe.
+
+Now, It's all well and good to do cool data manipulation, but...
 ## What do we gain from it?
 
 In this case, we're learning a lot about fruit and vegetables, and the average economics surrounding them.

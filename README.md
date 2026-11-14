@@ -37,10 +37,14 @@ Observation 3: The price difference between individual vegetable's prep methods 
 
 #### Finally, 'Retail Price vs. Price Per Cup Equivalent'.
 
-Observation 1: Higher retail price doesn't always mean a higher cost per serving. While the chart shows expensive items are often pricier per cup, this isn't always the case, ad the points on said chart fan out.
+Observation 1: Higher retail price doesn't always mean a higher cost per serving. While the chart shows expensive items are often pricier per cup, this isn't always the case, and the points on said chart fan out.
 
 Observation 2: There's a cluster of dots in the bottom left, which have low retail price *and* low price per cup (retail price under $2.00 and per-cup cost under $1.00), making them the best "value" options.
 ![Retail Price vs. Price Per Cup Equivalent](price_vs_cup.png)
+
+-
+-
+-
 
 Now that you (hopefully) understand what this project is meant to accomplish, here's how I did it:
 ### Step 1 and Step 2: Find a Dataset, and Import it
@@ -93,5 +97,7 @@ corr_matrix = full_combined[numeric_cols].corr()
 print(corr_matrix)
 ```
 And got the results identified earlier.
+
+I also ran some general descriptive statistics code, which is where I found something fascinating. Dried produce has the highest average retail price ($4.75/lb) yet it also has the second-lowest price per cup ($0.76/cup), because removing water weight means a single pound yields many cups.
 
 

@@ -1,5 +1,4 @@
-# finalProject
-For use in the class I'm taking.
+# finalProject: Python Data Manipulation
 
 It's all well and good to do cool data manipulation, but...
 ## What do we gain from it?

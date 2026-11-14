@@ -13,6 +13,9 @@ Example 2: PreparationYieldFactor vs. AveragePricePerCupEquivalent has -0.290670
 This is great info, but it's also just info. What did I learn from my visualizations?
 
 insert visualizations and what I learned here
+![Top 10 Priciest Fruits](top_10_fruits.png)
+![Top 10 Priciest Vegetables](top_10_veg.png)
+![Retail Price vs. Price Per Cup Equivalent](price_vs_cup.png)
 
 Now that you (hopefully) understand what this project is meant to accomplish, here's how I did it:
 ### Step 1 and Step 2: Find a Dataset, and Import it
